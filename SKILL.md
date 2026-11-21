@@ -20,6 +20,11 @@ Run every command as the same desktop user that will own the instance.
 If you need the env-profile repository first, run the `repo-pull` skill before
 installing Paperclip.
 
+## Security gate (required for local installation)
+
+Before installing Paperclip on this machine, run the `audit-skill` skill on the
+installer source and obtain an APPROVE or CAUTION verdict. Do not proceed with
+a REJECT verdict without explicit user consent.
 ## 1. Preflight
 
 ```bash
