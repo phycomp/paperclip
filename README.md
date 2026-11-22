@@ -27,3 +27,6 @@ cp -r paperclip-launch ~/.agents/skills/
 - "paperclip service won't start"
 - "Postgres exit 127"
 - "OpenCode --dir error"
+- "free usage limit reached"
+- "switch model" / "change provider"
+- "agent stuck in error after model change"
